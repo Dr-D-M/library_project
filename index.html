@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>D Private Library</title>
+	<link rel="stylesheet" type="text/css" href="/home/david-boc/private_library/librarystyle.css">
+	<link rel="stylesheet" type="text/css" href="/home/david-boc/private_library/normalize.css">
+
+</head>
+<body>
+	<h1>Private Library</h1>
+	<h4>Type the books that you have read</h4>
+<button class ="add_book" onclick="toggleForm()">Add New Book</button>
+
+	<div class="book-entry">
+<span>Book Title: </span>
+<input type="text" name="bookTitle" id="title">
+<span>Author: </span>
+<input type="text" name="pages" id="author">
+<span>Pages: </span>
+<input type="text" name="author" id="pages">
+<span>Year of Publication</span>
+<input type="text" name="year" id="year">
+<select id="status">
+	<option value="false">Currently reading</option>
+	<option value="false">Already read</option>
+	<option value="true">Read</option>
+</select>
+<input type="submit" name="submit" class="submit">
+<button class="cancel">cancel</button>
+
+</div>
+
+
+
+	<table id="book-chart">
+		<tr>
+			<th>Title</th>
+			<th>Author</th>
+			<th>Pages</th>
+			<th>Year</th>
+			<th>Status</th>
+		</tr>
+	
+		
+	</table>
+	
+	
+
+<script type="text/javascript" src="/home/david-boc/private_library/libraryFunction.js"></script>
+</body>
+</html>
