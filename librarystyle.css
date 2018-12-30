@@ -65,9 +65,11 @@
 .submit{
 	width: 120px;
 	height: 30px;
-	background: blue;
+	background: #7AC5CD;
 	border: none;
+	border-radius: 3px;
 	color: white;
+	font-weight: bold;
 	margin-top: 5px;
 }
 .cancel{
@@ -75,7 +77,9 @@
 	height: 30px;
 	background: red;
 	border: none;
+	border-radius: 3px;
 	color: white;
+	font-weight: bold;
 	margin-top: 5px;	
 }
 #message{
