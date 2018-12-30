@@ -77,16 +77,7 @@ function showBookLS(){
 		displayBook(book);
 	});
 }
-	/*function showBookLS(){
-		if(localStorage.getItem('books')=== null) {
-			myLibrary = [];
-		}else{
-			myLibrary = JSON.parse(localStorage.getItem('books'));
-		}
-		myLibrary.forEach(function(book){
-			displayBook(book);
-		});
-	}*/
+	
 
 
 	submitButton.addEventListener('click', function(e){
